@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "no-undef": [
+      1,
+      {
+        "argsIgnorePattern": "js/"
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

@@ -1,0 +1,102 @@
+/*
+Overwriting some styles to fit my preferences .
+*/
+
+.static-header__header {
+  /* The header takes too much space. */
+  padding-bottom: 0 !important;
+  padding-top: 176px !important;
+  background-image: none !important;
+}
+
+button.snipcart-checkout {
+  /* Hide cart button. */
+  display: none;
+}
+
+/* blog post*/
+
+.blog-post .faq__answer {
+  color: #273132 !important;
+}
+
+.blog-post .content__row {
+  max-width: 800px;
+  line-height: 1.5em;
+}
+
+.blog-post .static-header__title {
+  max-width: none !important;
+  font-size: 50px !important;
+}
+
+.blog-post .static-header__content {
+  padding-bottom: 0px !important;
+  color: #273132 !important;
+}
+
+.blog-post a {
+  color: #ae5452 !important;
+  text-decoration: underline !important;
+}
+
+.blog-post .faq__answer h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 1em;
+}
+
+.blog-post .faq__answer em {
+  font-size: smaller;
+}
+
+.blog-post ol {
+  margin-left: 30px !important;
+  margin-top: 30px !important;
+}
+
+.blog-post .faq__answer ol li {
+  list-style-type: decimal !important;
+}
+/* end blog post*/
+
+/* page blog */
+.content__row--overlap {
+  margin-top: 50px !important;
+}
+
+.blog-card .product-grid__category {
+  text-transform: none !important;
+  font-weight: normal !important;
+}
+
+@media (max-width: 768px) {
+  .product-grid__item {
+    margin-bottom: 57px !important;
+  }
+}
+/* end page blog*/
+
+/* footer */
+@media (max-width: 768px) {
+  .footer__logo {
+    margin-right: 0px !important;
+  }
+  .footer__legal-notice {
+    display: block !important;
+  }
+}
+/* end footer */
+
+/* page podcast*/
+.content__row--overlap.podcast {
+  margin-top: -45px !important;
+}
+
+.podcast-upcoming {
+  padding-top: 0 !important;
+}

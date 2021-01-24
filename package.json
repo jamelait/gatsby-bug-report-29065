@@ -1,0 +1,53 @@
+{
+  "name": "gatsby-bug-report-29065",
+  "private": true,
+  "description": "",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "build:lambda": "netlify-lambda build src/functions",
+    "dev:lambda": "netlify-lambda serve src/functions",
+    "build:all": "yarn build && yarn build:lambda",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "git:undo": "git reset --soft HEAD~1",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.2.0",
+    "@contentful/rich-text-types": "^13.1.0",
+    "@mdx-js/mdx": "^1.5.8",
+    "@mdx-js/react": "^1.5.8",
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.18.0",
+    "gatsby": "^2.4.3",
+    "gatsby-image": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^2.2.2",
+    "gatsby-plugin-mdx": "^1.1.4",
+    "gatsby-plugin-sharp": "^2.1.1",
+    "gatsby-plugin-typescript": "^2.0.13",
+    "gatsby-remark-images": "^3.2.1",
+    "gatsby-source-filesystem": "^2.0.36",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "netlify-lambda": "^1.4.7",
+    "node-fetch": "^2.6.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-google-recaptcha": "^2.1.0",
+    "react-helmet": "^5.2.1",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.17",
+    "@types/react-helmet": "^5.0.8",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.0"
+  }
+}

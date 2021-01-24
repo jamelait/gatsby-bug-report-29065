@@ -1,0 +1,92 @@
+.contact input,
+.contact textarea {
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid #88dd9b;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 1em;
+}
+.contact textarea {
+  color: black;
+}
+
+.contact button {
+  background-color: #88dd9b;
+  color: #ffffff;
+  align-items: center;
+  font-size: 24px;
+  border: 2px solid #88dd9b;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.contact button:disabled {
+  background-color: lightgray;
+  border: 2px solid grey;
+  color: darkgray;
+  cursor: default;
+}
+
+.contact button:hover:enabled {
+  background-color: #3ab455;
+  border: 2px solid #76bd85;
+}
+
+.content {
+  /* sticky footer - mais agrandi la page */
+  min-height: 100vh;
+}
+
+.content .error {
+  margin-top: 0 !important;
+  color: #ae5452;
+  margin-bottom: 1em;
+}
+
+.newsletter-contact {
+  max-width: 800px;
+  line-height: 1.5em;
+  width: 100%;
+  margin: auto;
+}
+
+.newsletter-contact .footer-content {
+  text-align: center;
+}
+
+.newsletter-contact input {
+  margin-bottom: 0;
+}
+
+.newsletter-contact button {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.contact h1 {
+  max-width: none !important;
+  font-size: 50px !important;
+}
+
+.newsletter-contact .error {
+  text-align: center;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.podcast-badge-container {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
