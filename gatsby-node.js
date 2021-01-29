@@ -46,7 +46,7 @@ createPagesMdx = async (graphql, createPage) => {
       path,
       component,
       context: {
-        relativePath: relativePath,
+        relativePath,
       },
     })
   })

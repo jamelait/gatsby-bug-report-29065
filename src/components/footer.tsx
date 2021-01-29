@@ -1,5 +1,4 @@
 import * as React from "react"
-import axios from "axios"
 import { Link } from "gatsby"
 // import { useStaticQuery, Link, graphql } from "gatsby"
 // @ts-ignore
@@ -32,17 +31,7 @@ export default class Footer extends React.Component<any, IState> {
   }
 
   onSubmit = () => {
-    this.setState({ submitted: true })
-    axios({
-      method: "POST",
-      url: `/.netlify/functions/subscribe`,
-      data: JSON.stringify({ email: this.state.email }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then(res => {})
-      .catch(err => {})
+
   }
 
   handleChange = event => {
